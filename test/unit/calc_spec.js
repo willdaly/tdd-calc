@@ -43,11 +43,11 @@ describe('calculator', function(){
       expect(sum).to.equal(12);
     });
   });
-  describe('.createFractions', function(){
-    it('should convert to fractions', function(){
-      var fractions = Calculator.createFractions(['1/2', '3/4']);
-      console.log(fractions);
-      // expect(summary).to.equal(['5/4']);
-    });
-  });
+  // describe('.createFractions', function(){
+  //   it('should convert to fractions', function(){
+  //     var fractions = Calculator.createFractions(['1/2', '3/4']);
+  //     console.log(fractions);
+  //     // expect(summary).to.equal(['5/4']);
+  //   });
+  // });
 });

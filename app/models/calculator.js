@@ -1,7 +1,7 @@
 /* global ratio:true */
 'use strict';
 
-var ratio = require('ratio');
+// var ratio = require('ratio');
 
 class Calculator {
   static add (x, y){
@@ -25,21 +25,21 @@ class Calculator {
     }
     return x;
   }
-  static createFractions (array) {
-    var fractions = array.map(fraction=>{
-      return fraction.split('/');
-    });
-    var ratioObjArray = fractions.map(a=>{
-      return ratio(a[0], a[1]);
-    });
-    return ratioObjArray;
-  }
-  static addFractions (array){
-    var fractions = createFractions(array);
-    var answer = fractions.map(a=>{
-      
-    });
-  }
+  // static createFractions (array) {
+  //   var fractions = array.map(fraction=>{
+  //     return fraction.split('/');
+  //   });
+  //   var ratioObjArray = fractions.map(a=>{
+  //     return ratio(a[0], a[1]);
+  //   });
+  //   return ratioObjArray;
+  // }
+  // static addFractions (array){
+  //   var fractions = createFractions(array);
+  //   var answer = fractions.map(a=>{
+  //
+  //   });
+  // }
 }
 
 module.exports = Calculator;
